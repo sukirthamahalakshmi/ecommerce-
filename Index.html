@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Flipkart Clone</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <div class="logo">Flipkart Clone</div>
+    <div class="cart">
+      🛒 Cart: <span id="cart-count">0</span> items | ₹<span id="cart-total">0</span>
+    </div>
+  </header>
+
+  <section class="products">
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71vFKBpKakL._AC_UL480_FMwebp_QL65_.jpg" alt="Smartphone">
+      <h3>Smartphone</h3>
+      <p>₹15,000</p>
+      <button onclick="addToCart(15000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/61A6lRrjQUL._AC_UL480_FMwebp_QL65_.jpg" alt="Headphones">
+      <h3>Wireless Headphones</h3>
+      <p>₹2,500</p>
+      <button onclick="addToCart(2500)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/81M1gE5QvvL._AC_UL480_FMwebp_QL65_.jpg" alt="Smartwatch">
+      <h3>Smartwatch</h3>
+      <p>₹3,000</p>
+      <button onclick="addToCart(3000)">Add to Cart</button>
+    </div>
+
+    <div class="product">
+      <img src="https://m.media-amazon.com/images/I/71V--WZVUIL._AC_UL480_FMwebp_QL65_.jpg" alt="Shoes">
+      <h3>Running Shoes</h3>
+      <p>₹1,800</p>
+      <button onclick="addToCart(1800)">Add to Cart</button>
+    </div>
+  </section>
+
+  <script src="script.js"></script>
+</body>
+</html>
